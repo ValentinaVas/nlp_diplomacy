@@ -1,0 +1,7 @@
+include src/nlp_diplomacy/static/*.json
+include src/nlp_diplomacy/static/sql/*.sql
+include src/nlp_diplomacy/static/sql/otra_carpeta/*.*
+include src/nlp_diplomacy/static/model/*.pkl
+include src/nlp_diplomacy/static/excel/*.*
+include versioneer.py
+include src/nlp_diplomacy/_version.py
