@@ -1,9 +1,9 @@
 {
 	"global" : {
 		"dsn" : "IMPALA_PROD" ,
-		"username" : "valevasq",
-		"password": "$VEve12122023#",
-		"hostname":"sbmdeblze004.bancolombia.corp"
+		"username" : "",
+		"password": ""
+		
 		}
 
 }

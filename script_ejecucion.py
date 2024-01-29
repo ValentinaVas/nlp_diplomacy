@@ -8,7 +8,7 @@ if not os.path.exists( "logs/" ):
 	print("Directorio de log no creado, Creándolo ........")
 	os.mkdir("logs/")
 
-steps = [exploratory_analysis()]
+steps = [exploratory_analysis(),model_LogisticRegression(),model_LSTM()]
 
 orquestador = Orchestrator('nlp', steps)
 orquestador.ejecutar()
